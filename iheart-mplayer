@@ -1,7 +1,7 @@
 #! /bin/sh
 set -f
 
-IHEART_URL=${IHEART_URL:-"./iheart-url"}
+IHEART_URL=${IHEART_URL:-"iheart-url"}
 
 # mplayer will sometimes look for a video stream and attempt to play it, causing
 # a long delay before it realizes there isn't one. We correct this behavior.
